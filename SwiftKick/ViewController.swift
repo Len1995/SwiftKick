@@ -52,7 +52,7 @@ class ViewController: UIViewController {
     @IBAction func playKick(sender: AnyObject) {
         print("Playing Kick Sound")
         AudioServicesPlaySystemSound(kickSound)
-    }
+    }//
     
     @IBAction func playSnare(sender: AnyObject) {
         print("Playing Snare Sound")
