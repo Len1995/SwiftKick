@@ -20,7 +20,28 @@
                                 <rect key="frame" x="20" y="28" width="120" height="120"/>
                                 <state key="normal" title="Kick"/>
                                 <connections>
-                                    <action selector="playKick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cRY-Ea-mLx"/>
+                                    <action selector="playKick:" destination="BYZ-38-t0r" eventType="touchDown" id="XIQ-hF-LCf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZDA-0L-0Mn">
+                                <rect key="frame" x="116" y="36" width="120" height="120"/>
+                                <state key="normal" title="Snare"/>
+                                <connections>
+                                    <action selector="playSnare:" destination="BYZ-38-t0r" eventType="touchDown" id="ipX-Z1-df3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qa8-cq-IqP">
+                                <rect key="frame" x="116" y="136" width="120" height="120"/>
+                                <state key="normal" title="Hi Hat"/>
+                                <connections>
+                                    <action selector="playHihat:" destination="BYZ-38-t0r" eventType="touchDown" id="ZM7-ck-DG5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Eb-7y-y9j">
+                                <rect key="frame" x="14" y="136" width="120" height="120"/>
+                                <state key="normal" title="Clap"/>
+                                <connections>
+                                    <action selector="playClap:" destination="BYZ-38-t0r" eventType="touchDown" id="3RI-8B-u6i"/>
                                 </connections>
                             </button>
                         </subviews>
