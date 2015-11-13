@@ -17,8 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jtO-S3-QS9">
-                                <rect key="frame" x="20" y="28" width="262" height="250"/>
+                            <button contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jtO-S3-QS9">
+                                <rect key="frame" x="20" y="28" width="250" height="250"/>
                                 <color key="backgroundColor" red="0.42266217136412865" green="0.6378526647847047" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Kick">
@@ -28,8 +28,8 @@
                                     <action selector="playKick:" destination="BYZ-38-t0r" eventType="touchDown" id="XIQ-hF-LCf"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZDA-0L-0Mn">
-                                <rect key="frame" x="318" y="28" width="262" height="250"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZDA-0L-0Mn">
+                                <rect key="frame" x="330" y="28" width="250" height="250"/>
                                 <color key="backgroundColor" red="0.39397394064510954" green="0.66666666666666663" blue="0.3187191582316099" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Snare">
@@ -39,8 +39,8 @@
                                     <action selector="playSnare:" destination="BYZ-38-t0r" eventType="touchDown" id="ipX-Z1-df3"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Eb-7y-y9j">
-                                <rect key="frame" x="20" y="329" width="262" height="251"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Eb-7y-y9j">
+                                <rect key="frame" x="20" y="329" width="250" height="250"/>
                                 <color key="backgroundColor" red="0.66666666666666663" green="0.24659379788210511" blue="0.16555628804177941" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Clap">
@@ -50,8 +50,8 @@
                                     <action selector="playClap:" destination="BYZ-38-t0r" eventType="touchDown" id="3RI-8B-u6i"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qa8-cq-IqP">
-                                <rect key="frame" x="318" y="328" width="262" height="252"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qa8-cq-IqP">
+                                <rect key="frame" x="330" y="329" width="250" height="250"/>
                                 <color key="backgroundColor" red="0.66666666666666663" green="0.66346305679225381" blue="0.19220230545984052" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Hi Hat">
